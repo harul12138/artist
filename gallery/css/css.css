@@ -1,0 +1,22 @@
+@charset "utf-8";
+@charset "utf-8";
+/* CSS 定制的公共样式 */
+
+ul,dl{ list-style-type:none;}
+li{vertical-align:top;}
+.clear{ clear:both; margin:0; padding:0; font-size:0px; line-height:0px; height:0px; overflow:hidden;} 
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+*html .clearfix {zoom:1;}
+
+/* CSS 活动的公共样式 */
+
+
+
+
+.course{ height:162px; background:#FFF; margin:150px 0 0 0;}
+.course_nr{height:162px; background:url(../images/ico9.gif) repeat-x center;}
+.course_nr li{ float:left; background:url(../images/ico10.gif) no-repeat center top; padding-top:30px; width:131px; text-align:center; position:relative; margin-top:65px;}
+.shiji{ position:absolute; width:100%; left:0; top:-21px; display:none;}
+.shiji h1{ height:67px; line-height:67px; color:#329168; font-weight:bold; background:url(../images/ico11.gif) no-repeat center top; margin-bottom:8px;}
+.shiji p{ line-height:14px; color:#187C49;font-weight:900;}
+
